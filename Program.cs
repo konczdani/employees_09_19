@@ -18,6 +18,12 @@ namespace _09_19_Employees
                 eredmenylista.Add(new tulajdonsag(sr.ReadLine()));
             }
             sr.Close();
+            //3.feladat:
+            foreach (var item in eredmenylista)
+            {
+                Console.WriteLine(item.name);
+            }
+            //4.feladat:
             Console.ReadLine();
         }
     }

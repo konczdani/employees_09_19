@@ -34,10 +34,10 @@ namespace _09_19_Employees
                 szam += item.kereset;
                 oszt++;
             }
-            int atlag = szam/oszt;
+            int atlag = szam / oszt;
             foreach (var item in eredmenylista)
             {
-                if (atlag<item.kereset)
+                if (atlag < item.kereset)
                 {
                     Console.WriteLine($"{item.id} {item.name}");
                 }
@@ -47,12 +47,23 @@ namespace _09_19_Employees
             Console.WriteLine("5.feladat:");
             foreach (var item in eredmenylista)
             {
-                if (item.age==55)
+                if (item.age == 55)
                 {
                     Console.WriteLine($"{item.name} {item.age}");
                 }
             }
+            Console.WriteLine();
             //6.feladat:
+            Console.WriteLine("6.feladat:");
+            int ossz = 0;
+            foreach (var item in eredmenylista)
+            {
+                if (item.kereset > 50000)
+                {
+                    ossz++;
+                }
+            }
+            Console.WriteLine($"{ossz} keresnek 50000ft felett!");
             Console.ReadLine();
         }
     }

@@ -24,6 +24,22 @@ namespace _09_19_Employees
                 Console.WriteLine(item.name);
             }
             //4.feladat:
+            int szam = 0;
+            int oszt = 0;
+            foreach (var item in eredmenylista)
+            {
+                szam += item.kereset;
+                oszt++;
+            }
+            int atlag = szam/oszt;
+            foreach (var item in eredmenylista)
+            {
+                if (atlag<item.kereset)
+                {
+                    Console.WriteLine($"{item.id} {item.name}");
+                }
+            }
+            //5.feladat:
             Console.ReadLine();
         }
     }

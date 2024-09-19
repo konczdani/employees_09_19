@@ -1,0 +1,8 @@
+D:\Git_dolgok\09_19_Employees\bin\Debug\tulajdonsagok_100sor.txt
+D:\Git_dolgok\09_19_Employees\bin\Debug\09_19_Employees.exe.config
+D:\Git_dolgok\09_19_Employees\bin\Debug\09_19_Employees.exe
+D:\Git_dolgok\09_19_Employees\bin\Debug\09_19_Employees.pdb
+D:\Git_dolgok\09_19_Employees\obj\Debug\09_19_Employees.csproj.AssemblyReference.cache
+D:\Git_dolgok\09_19_Employees\obj\Debug\09_19_Employees.csproj.CoreCompileInputs.cache
+D:\Git_dolgok\09_19_Employees\obj\Debug\09_19_Employees.exe
+D:\Git_dolgok\09_19_Employees\obj\Debug\09_19_Employees.pdb

@@ -19,11 +19,14 @@ namespace _09_19_Employees
             }
             sr.Close();
             //3.feladat:
+            Console.WriteLine("3.feladat:");
             foreach (var item in eredmenylista)
             {
                 Console.WriteLine(item.name);
             }
+            Console.WriteLine();
             //4.feladat:
+            Console.WriteLine("4.feladat:");
             int szam = 0;
             int oszt = 0;
             foreach (var item in eredmenylista)
@@ -39,7 +42,17 @@ namespace _09_19_Employees
                     Console.WriteLine($"{item.id} {item.name}");
                 }
             }
+            Console.WriteLine();
             //5.feladat:
+            Console.WriteLine("5.feladat:");
+            foreach (var item in eredmenylista)
+            {
+                if (item.age==55)
+                {
+                    Console.WriteLine($"{item.name} {item.age}");
+                }
+            }
+            //6.feladat:
             Console.ReadLine();
         }
     }
